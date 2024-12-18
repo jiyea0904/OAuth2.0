@@ -1,0 +1,31 @@
+button {
+    padding: 10px 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+}
+main .img_wrap {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+main .img_wrap img{
+    width: 100%;
+}
